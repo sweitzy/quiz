@@ -18,12 +18,12 @@ Implement a script which has the following usage format:
   ```bash
     “File exists. Overwrite (y/n) ?”
   ```
-    The script should process user input and either overwrite file or not.
-    If the user input is not valid, i.e. neither ‘y’ nor ’n’, the script should just prompt the user again with the same prompt until a valid input is provided.
+   The script should process user input and either overwrite file or not.
+   If the user input is not valid, i.e. neither ‘y’ nor ’n’, the script should just prompt the user again with the same prompt until a valid input is provided.
 
-    If the --verbose option is set, the following messages should be printed in appropriate portions of code.
+   If the --verbose option is set, the following messages should be printed in appropriate portions of code.
 
-    ```bash
+   ```bash
 File removed
 File created
 File already exists
